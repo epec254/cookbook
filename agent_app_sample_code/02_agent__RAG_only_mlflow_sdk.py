@@ -58,6 +58,9 @@ from datetime import datetime
 from databricks.vector_search.client import VectorSearchClient
 import mlflow
 from IPython.display import display_markdown
+import os
+
+os.environ["AGENT_EVAL_SHOW_RCA_RATIONALE"] = "true"
 
 # COMMAND ----------
 
